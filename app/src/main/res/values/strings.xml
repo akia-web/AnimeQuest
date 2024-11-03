@@ -1,3 +1,7 @@
+<!-- res/values/strings.xml -->
 <resources>
     <string name="app_name">AnimeQuest</string>
+    <!-- Ajoutez cette ligne -->
+    <string name="backdrop_image">Backdrop image</string>
+    <string name="poster_image">Poster image</string>
 </resources>

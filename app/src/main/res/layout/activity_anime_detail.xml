@@ -1,0 +1,91 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#242A38"> <!-- Arrière-plan sombre -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/animeBackdropImage"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/backdrop_image"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/animeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/animeDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#B0B3C7"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" /> <!-- Marge inférieure pour espacement -->
+
+        <!-- Nouvelle section d'information avec des marges -->
+        <TextView
+            android:id="@+id/animeLanguage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#B0B3C7"
+            android:textSize="14sp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/animeCountry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#B0B3C7"
+            android:textSize="14sp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/animeFirstAirDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#B0B3C7"
+            android:textSize="14sp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/animeVoteAverage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFD700"
+            android:textSize="14sp"
+            android:drawableLeft="@drawable/ic_star"
+            android:drawablePadding="8dp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/animeVoteCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#B0B3C7"
+            android:textSize="14sp"
+            android:layout_marginBottom="16dp" /> <!-- Marge inférieure pour espacement -->
+
+        <ImageView
+            android:id="@+id/animePosterImage"
+            android:layout_width="150dp"
+            android:layout_height="225dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:contentDescription="@string/poster_image"
+            android:background="@drawable/rounded_corners"
+            android:padding="4dp" />
+
+    </LinearLayout>
+</ScrollView>

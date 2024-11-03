@@ -1,9 +1,18 @@
+<!-- res/values/themes.xml -->
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.AnimeQuest" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
-    </style>
+    <style name="Theme.AnimeQuest" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Couleur principale de l'application -->
+        <item name="colorPrimary">#FF4C61</item>
+        <item name="colorPrimaryDark">#FF4C61</item>
+        <item name="colorAccent">#FFFFFF</item>
 
-    <style name="Theme.AnimeQuest" parent="Base.Theme.AnimeQuest" />
+        <!-- Couleurs du texte -->
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textColorSecondary">#B0B3C7</item>
+
+        <!-- Couleur d'arrière-plan principale -->
+        <item name="android:windowBackground">#242A38</item>
+
+        <!-- Autres attributs globaux ici -->
+    </style>
 </resources>
